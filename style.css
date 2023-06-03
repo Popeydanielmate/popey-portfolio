@@ -106,6 +106,7 @@ a learning curve for me. In the future I would develop a template for both */
 
 /* adjustments for desktop */
 
+
 @media screen and (min-width: 850px) {
     * {
         margin: 0;
@@ -136,6 +137,9 @@ a learning curve for me. In the future I would develop a template for both */
         padding: 15px 15px;
     }
 
+    /* slight enlargement when hovering. Works well in desktop 
+    but felt that didn't suit mobile */
+    
     .nav-header:hover {
         transform: scale(1.1);
     }
@@ -168,13 +172,6 @@ a learning curve for me. In the future I would develop a template for both */
         border-bottom: black solid;
     }
     
-    
-    .social-media {
-        display: inline-block;
-        justify-content: space-around;
-        margin: 200px 200px;
-        background-color: rgb(235, 239, 243);
-    }
     
     /* footer */
     
